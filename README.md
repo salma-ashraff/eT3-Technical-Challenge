@@ -4,6 +4,7 @@ This documentation outlines the solution for two tasks:
 2. Transforming the output of an image detection system into a JSON format suitable for further processing. The provided solution encompasses Python programming to achieve these tasks.
 
 Task1.py file:
+
 Involves collecting images from nested folders and placing them into a single folder while extracting relevant information about each image. The key steps involved are:
 
 -Collecting images: The code extracts the images and move them to a specified destination folder named "images_dataset."
@@ -16,6 +17,7 @@ Image size
 Last modification date of the image content
 
 Task2.py file:
+
 Involves transforming the output of an image detection system, which consists of a TXT file with object detection information, into a JSON format for further processing. The steps to achieve this are:
 
 -Parse TXT File: The code reads each line of the TXT file, the txt file used named 'image1.txt', and extracts object detection information, such as coordinates and dimensions of the detected objects.
